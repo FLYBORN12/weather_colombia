@@ -1,0 +1,7 @@
+__pycache__/
+logs/
+config/
+envScrap/
+.env
+plugins/
+requirements-dev.txt

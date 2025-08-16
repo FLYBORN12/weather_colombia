@@ -21,7 +21,7 @@ El objetivo es mostrar un flujo de trabajo completo de **Data Engineering + BI**
 
 ### ⚙️ Arquitectura
 
-```mermaid
+```
 flowchart LR
     A[🌍 Scraping Clima] --> B[🌀 Airflow DAG]
     B --> C[(🐘 PostgreSQL en GCP)]
@@ -80,4 +80,5 @@ El dashboard en Power BI permite:
 ```
 
 👨‍💻 Autor 
+<br></br>
 <a href="https://www.linkedin.com/in/juanfehoyos/"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-Felipe%20Hoyos-blue?style=flat-square&logo=linkedin"></a>

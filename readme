@@ -11,8 +11,6 @@ Este proyecto implementa un **pipeline de datos del clima en Colombia** que:
 
 El objetivo es mostrar un flujo de trabajo completo de **Data Engineering + BI**, desde la extracción hasta la visualización.  
 
----
-
 ⚙️ Arquitectura
 
 ```mermaid
@@ -33,40 +31,21 @@ Google Cloud Platform (GCP) ☁️ → Infraestructura en la nube
 
 Power BI 📊 → Visualización de datos
 
-📂 Estructura del proyecto
-bash
-Copy
-Edit
-├── dags/                  # DAGs de Airflow
-│   └── weather_dag.py
-├── docker/                # Configuración de contenedores
-│   └── Dockerfile
-├── sql/                   # Scripts SQL para crear tablas
-│   └── create_tables.sql
-├── requirements.txt       # Dependencias de Python
-├── docker-compose.yml     # Orquestación con Docker
-├── README.md              # Este archivo
-🛠️ Instalación local
-Clona el repositorio
 
-bash
-Copy
-Edit
+🛠️ Instalación local
+
+- Clona el repositorio
 git clone https://github.com/tuusuario/weather-pipeline.git
 cd weather-pipeline
-Construye los contenedores con Docker
 
-bash
-Copy
-Edit
+- Configura las variables de entorno en .env
+
+- Construye los contenedores con Docker
 docker-compose up --build
-Accede a Airflow en tu navegador
 
-arduino
-Copy
-Edit
+- Accede a Airflow en tu navegador
 http://localhost:8080
-Configura las variables de entorno en .env (ejemplo incluido en .env.example).
+
 
 📊 Dashboard
 El dashboard en Power BI permite:

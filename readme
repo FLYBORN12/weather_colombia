@@ -1,10 +1,10 @@
 # 🌤️ Weather Data Pipeline
 
-![Airflow](https://img.shields.io/badge/Airflow-2.0+-blue?logo=apache-airflow)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue?logo=postgresql)  
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=power-bi)  
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)  
-![GCP](https://img.shields.io/badge/GCP-Deployed-brightgreen?logo=google-cloud)  
+[Airflow](https://img.shields.io/badge/Airflow-2.0+-blue?logo=apache-airflow)  
+[PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue?logo=postgresql)  
+[PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=power-bi)  
+[Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)  
+[GCP](https://img.shields.io/badge/GCP-Deployed-brightgreen?logo=google-cloud)  
 
 ## 📌 Descripción
 
